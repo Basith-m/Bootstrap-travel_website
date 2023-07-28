@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    transition: .5s;
+}
+
+.header{
+    background: url(images/background-img.jpg) no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.banner-text{
+    padding: 3rem 12rem 0px 1rem;
+    font-size: 5vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-text{
+    font-family: 'Dancing Script', cursive;
+}
+
+.packages div{
+    width: 300px;
+    text-align: center;
+    padding: 1rem;
+}
+
+.packages div:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.packages div p{
+    text-align: justify;
+}
+
+.more-btn button{
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.more-btn button:hover{
+    background-color: red;
+}
+
+.explore-img{
+    padding: 5vh 16vh;
+}
+
+.explore-img div{
+    width: 280px;
+}
+
+.overlay{
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease;
+}
+
+
+.img-container:hover .overlay{
+    height: 100%;
+}
+
+.feature-para{
+    font-family: 'Cookie', cursive;
+    font-size: 1.5rem;
+}
+
+.review-head{
+    font-family: 'Pacifico', cursive;
+ }
